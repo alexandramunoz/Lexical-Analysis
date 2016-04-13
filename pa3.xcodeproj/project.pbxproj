@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38C235C41CB6A8F3001E7C8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38C235C31CB6A8F3001E7C8D /* main.cpp */; };
+		38C235C41CB6A8F3001E7C8D /* pa3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38C235C31CB6A8F3001E7C8D /* pa3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3870F1DA1CBB627800D65D04 /* pa3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pa3.h; sourceTree = "<group>"; };
 		38C235C01CB6A8F3001E7C8D /* pa3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pa3; sourceTree = BUILT_PRODUCTS_DIR; };
-		38C235C31CB6A8F3001E7C8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		38C235C31CB6A8F3001E7C8D /* pa3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pa3.cpp; sourceTree = "<group>"; };
+		38C235CD1CB6B95C001E7C8D /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
+		38C235CE1CB6BA1F001E7C8D /* pa3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pa3.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,10 @@
 		38C235C21CB6A8F3001E7C8D /* pa3 */ = {
 			isa = PBXGroup;
 			children = (
-				38C235C31CB6A8F3001E7C8D /* main.cpp */,
+				38C235C31CB6A8F3001E7C8D /* pa3.cpp */,
+				3870F1DA1CBB627800D65D04 /* pa3.h */,
+				38C235CE1CB6BA1F001E7C8D /* pa3.txt */,
+				38C235CD1CB6B95C001E7C8D /* file.txt */,
 			);
 			path = pa3;
 			sourceTree = "<group>";
@@ -118,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C235C41CB6A8F3001E7C8D /* main.cpp in Sources */,
+				38C235C41CB6A8F3001E7C8D /* pa3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +245,7 @@
 				38C235C91CB6A8F3001E7C8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
